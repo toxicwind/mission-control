@@ -1,0 +1,7 @@
+# mission-control — autonomous rig task wiring (Phase-B).
+# bin/run = run controller watcher; bin/check = build + test gate.
+
+[tasks]
+run = "./bin/run"
+check = "./bin/check"
+test = "bun test tests/"
